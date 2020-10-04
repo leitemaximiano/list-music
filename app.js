@@ -33,6 +33,10 @@ searchLyrics.addEventListener('submit', function(event){
                         </svg>
                         <strong>Titulo </strong> ${item.title}
                     </p>
+                    <audio controls class="lyrics__preview">
+                        <source src="${item.preview}" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
                 </li>
                 `, '');
                 listTitle.innerHTML = html;

@@ -104,6 +104,10 @@ body {
 }
 
 .lyrics__item {
+    padding-top: 5px;
+    padding-bottom: 5px;
     border-bottom: 1px solid rgba(31, 31, 31, 0.898);
     color: var(--white);
+    display: flex;
+    justify-content: space-between;
 }
